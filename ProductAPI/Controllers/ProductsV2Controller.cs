@@ -42,7 +42,7 @@ namespace ProductAPI.Controllers
             }
         }
 
-        //this is a new way to do patching on .net core but I don't have time to debug it
+        //I have discovered a new approach for patching in .NET Core, but unfortunately, I do not have the availability to debug it at this time.
 
         //[HttpPatch("new/{id}")]
         //public async Task<IActionResult> UpdateProduct(int id, [FromBody] JsonPatchDocument<Product> patchDoc)
